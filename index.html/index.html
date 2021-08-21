@@ -3,39 +3,41 @@
     <head>
         
     <div>
-            <div class="navbar-header">Gmail</div>
-            <div class="navbar-header">Imagenes</div>
-            <div class="navbar-header">Google Apps</div>
-            <div class="navbar-header">Google account</div>
+         <div class="navbar-header">Gmail</div>
+         <div class="navbar-header">Imagenes</div>
+         <div class="navbar-header">Google Apps</div>
+         <div class="navbar-header">Google account</div>
     </div>
         
           
     </head>
 
     <body>
-        <div class="page-container">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-            <input type="text" class="search-input">
-            
-        </div>
-        <div class="search-container">
-        
-        <input class="search" value="Buscar con Google" aria-label="Buscar con Google" type="submit">
-            <input class="search" value="Me siento con suerte" aria-label="Me siento con suerte" type="submit">   
-        
-        </div>
-        
-        </body>
 
-    <!--ARREGLAR CON DIV-->
+    <div class="page-container">
+
+         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+        <input type="text" class="search-input">   
+
+    </div>
+
+    <div>
+        <center>
+        <input class="search" value="Buscar con Google" aria-label="Buscar con Google" type="submit">
+        <input class="search" value="Me siento con suerte" aria-label="Me siento con suerte" type="submit">   
+        </center>
+    </div>
+        
+    </body>
+
         <div class="footer">
-            <li class="footer-left">Sobre google</li>
-            <li class="footer-left">Publicidad</li>
-            <li class="footer-left">Negocios</li>
-            <li class="footer-left">Como funciona la busqueda</li>
-            <li class="footer-right">Privacidad</li>
-            <li class="footer-right">Condiciones</li>
-            <li class="footer-right">Preferencias</li>
+            <div class="footer-left">Sobre google</div>
+            <div class="footer-left">Publicidad</div>
+            <div class="footer-left">Negocios</div>
+            <div class="footer-left">Como funciona la busqueda</div>
+            <div class="footer-right">Privacidad</div>
+            <div class="footer-right">Condiciones</div>
+            <div class="footer-right">Preferencias</div>
         </div>
     
         
@@ -81,7 +83,7 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40%;
+    height: 20%;
     flex-direction: column;
     width: 100%;
     padding-top: 70px;
@@ -95,17 +97,9 @@ body, html {
 }
 
 .search{
-    align-items: center;
-    justify-content: center;
     height: 35px;
-    flex-direction: column;
     width: 200px; 
     display:inline;
 }
 
-.search-container {
-    display: flex;
-    align-items: center;
-   
-}
 </style>
