@@ -1,7 +1,7 @@
 
 <html>
     <head>
-        
+        <script src="https://kit.fontawesome.com/4a5173b7bb.js" crossorigin="anonymous"></script>
     <div>
          <div class="navbar-header">Gmail</div>
          <div class="navbar-header">Imagenes</div>
@@ -13,19 +13,20 @@
     </head>
 
     <body>
-
+       
     <div class="page-container">
-
+        
          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-        <input type="text" class="search-input">   
-
-    </div>
-
-    <div>
-        <center>
+        <div class="search-container" >
+            <i class="fas fa-search"></i>
+            <input type="text" class="search-input"> 
+        </div>
+        
+       <div>
         <input class="search" value="Buscar con Google" aria-label="Buscar con Google" type="submit">
         <input class="search" value="Me siento con suerte" aria-label="Me siento con suerte" type="submit">   
-        </center>
+       </div> 
+
     </div>
         
     </body>
@@ -45,7 +46,7 @@
 
 <style>
 body, html {
-  height: 100vh;
+  height: 90vh;
 }
 
 .navbar-header{
@@ -83,23 +84,34 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20%;
+    height: 60%;
     flex-direction: column;
     width: 100%;
     padding-top: 70px;
 }
 
 .search-input{
-    width: 30%;
+    width: 50%;
     margin: 20px;
     border-radius: 10px;
     height: 30px;
+    border: 1px solid rgb(224, 224, 224);
+    display: inline-block;
+    position: relative;
 }
 
 .search{
     height: 35px;
     width: 200px; 
     display:inline;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 </style>
